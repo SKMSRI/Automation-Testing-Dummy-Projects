@@ -6,13 +6,12 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class Dummy_1_Awesomeqa {
-
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         EdgeDriver driver = new EdgeDriver();
         driver.get("https://awesomeqa.com/practice.html");
         driver.manage().window().maximize();
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
 
         //Text box
         driver.findElement(By.xpath("//input[@name = 'firstname']")).sendKeys("SAURABH");
@@ -48,3 +47,5 @@ public class Dummy_1_Awesomeqa {
 
     }
 }
+
+
