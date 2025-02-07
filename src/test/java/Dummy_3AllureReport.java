@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
@@ -6,7 +7,7 @@ import org.testng.annotations.Test;
 public class Dummy_3AllureReport {
 
     @Test
-    public void TextBoxValidation() {
+    public void TextBoxValidation_Testcase1() {
 
         EdgeDriver driver = new EdgeDriver();
         driver.get("https://awesomeqa.com/practice.html");
@@ -19,7 +20,7 @@ public class Dummy_3AllureReport {
     }
 
     @Test
-    public void CheckBoxValidation() {
+    public void CheckBoxValidation_Testcase2() {
 
         EdgeDriver driver = new EdgeDriver();
         driver.get("https://awesomeqa.com/practice.html");
@@ -31,7 +32,7 @@ public class Dummy_3AllureReport {
     }
 
     @Test
-    public void SelectDropdownvalidation() {
+    public void SelectDropdownvalidation_Testcase3() {
 
         EdgeDriver driver = new EdgeDriver();
         driver.get("https://awesomeqa.com/practice.html");
@@ -41,5 +42,20 @@ public class Dummy_3AllureReport {
         Select continents = new Select(driver.findElement(By.id("continents")));
         //continents.selectByVisibleText("Australia");
         continents.selectByIndex(3);
+    }
+
+    @Test
+    public void Uploadfile_Testcase4() {
+
+        EdgeDriver driver = new EdgeDriver();
+        driver.get("https://awesomeqa.com/practice.html");
+        driver.manage().window().maximize();
+
+        //upload file button
+        //driver.findElement(By.xpath("//input[contains(@id,'photo')]")).click();
+        WebElement upload = driver.findElement(By.xpath("//input[contains(@type,  'file')]"));
+        upload.sendKeys("C:\\Users\\SAURABH\\Downloads\\zoomsample");
+        System.out.println("File uploaded successfully");
+
     }
 }
