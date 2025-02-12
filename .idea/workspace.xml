@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e54f7ca-f787-47e9-a5f9-b3e3c929fca7" name="Changes" comment="04-Feb">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Dummy_3AllureReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationdummyprojects/Dummy_projects_Locators/Dummy_2_CuraHealthApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationdummyprojects/Dummy_projects_Locators/Dummy_2_CuraHealthApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +49,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Dummy_1_Awesomeqa.executor": "Run",
+    "Application.Dummy_2_CuraHealthApp.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.C:/Users/SAURABH/IdeaProjects/Automation-Testing-Dummy-Projects/testng.xml.executor": "Run",
+    "TestNG.Dummy_2_CuraHealthApp.LoginPage_TestCase1.executor": "Run",
+    "TestNG.Dummy_2_CuraHealthApp.executor": "Run",
+    "TestNG.Dummy_3AllureReport.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/SAURABH/IdeaProjects/Automation-Testing-Dummy-Projects/src/test/java",
@@ -59,9 +63,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/SAURABH/IdeaProjects/Automation-Testing-Dummy-Projects/testng.xml">
-    <configuration name="Dummy_1_Awesomeqa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automationdummyprojects.Dummy_projects_Locators.Dummy_1_Awesomeqa" />
+  <component name="RunManager" selected="TestNG.Dummy_2_CuraHealthApp.LoginPage_TestCase1">
+    <configuration name="Dummy_2_CuraHealthApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automationdummyprojects.Dummy_projects_Locators.Dummy_2_CuraHealthApp" />
       <module name="Automation-Testing-Dummy-Projects" />
       <extension name="coverage">
         <pattern>
@@ -83,10 +87,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dummy_2_CuraHealthApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Testing-Dummy-Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automationdummyprojects.Dummy_projects_Locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automationdummyprojects.Dummy_projects_Locators" />
+      <option name="MAIN_CLASS_NAME" value="com.automationdummyprojects.Dummy_projects_Locators.Dummy_2_CuraHealthApp" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dummy_2_CuraHealthApp.LoginPage_TestCase1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Testing-Dummy-Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automationdummyprojects.Dummy_projects_Locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automationdummyprojects.Dummy_projects_Locators" />
+      <option name="MAIN_CLASS_NAME" value="com.automationdummyprojects.Dummy_projects_Locators.Dummy_2_CuraHealthApp" />
+      <option name="METHOD_NAME" value="LoginPage_TestCase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dummy_3AllureReport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Testing-Dummy-Projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Dummy_3AllureReport" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Dummy_2_CuraHealthApp.LoginPage_TestCase1" />
+        <item itemvalue="TestNG.Dummy_2_CuraHealthApp" />
+        <item itemvalue="TestNG.Dummy_3AllureReport" />
+        <item itemvalue="Application.Dummy_2_CuraHealthApp" />
         <item itemvalue="TestNG.C:/Users/SAURABH/IdeaProjects/Automation-Testing-Dummy-Projects/testng.xml" />
-        <item itemvalue="Application.Dummy_1_Awesomeqa" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738849302280</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="04-Feb">
+      <option name="closed" value="true" />
+      <created>1738888777349</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738888777349</updated>
+    </task>
+    <task id="LOCAL-00005" summary="04-Feb">
+      <option name="closed" value="true" />
+      <created>1738890044945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738890044947</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
