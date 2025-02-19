@@ -1,2 +1,2 @@
-h3 Automation Dummy Projects:  
+ Automation Dummy Projects:  
   https://awesomeqa.com/practice.html
